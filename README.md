@@ -41,7 +41,7 @@ If any line is malformed, make sure to remove/fix it before training.
 
 `test.py` loads the model from:
 
-- `./openhusky-3b-instruct/`
+- `your-model-folder-name`
 
 Then it asks for a prompt from stdin and prints the generated response.
 
@@ -55,9 +55,9 @@ python test.py
 
 ## Save a base instruct model (7B)
 
-`train.py` loads `Qwen/Qwen2.5-7B-Instruct` and saves it locally into:
+`train.py` loads `any model from huggingface` and saves it locally into:
 
-- `./openhusky-7B-instruct/`
+- `your-model-folder-name`
 
 Run:
 
@@ -72,7 +72,7 @@ python train.py
 `upload.py` logs in (using a token in the file) and uploads:
 
 - local `data/train.jsonl`
-- to repo `lazarus19/openhusky`
+- to repo `your-repo`
 - as a dataset named `train.jsonl`
 
 Run:
