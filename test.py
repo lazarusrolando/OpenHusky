@@ -9,7 +9,7 @@ warnings.filterwarnings("ignore")
 # =========================
 # CONFIG
 # =========================
-model_name = "./openhusky-7B-instruct"
+model_name = "<your-model-folder-name>"
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
