@@ -4,8 +4,8 @@ A small repository for fine-tuning and running Hugging Face causal language mode
 
 Key files:
 - `train.jsonl` — training data in JSONL format (`{"prompt": ..., "response": ...}` per line)
-- `train.py` — saves a base instruct model into `./openhusky-7B-instruct/`
-- `test.py` — interactive local inference for `./openhusky-7B-instruct/`
+- `train.py` — saves a base instruct model into `your-model-folder-name`
+- `test.py` — interactive local inference for `<your-model-folder-name>`
 - `upload.py` — uploads `train.jsonl` to Hugging Face Hub as a dataset
 - `SKILL.md` — high-level description of learned “skills”
 
