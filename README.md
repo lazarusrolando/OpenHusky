@@ -7,8 +7,7 @@ Key files:
 - `train.py` — saves a base instruct model into `your-model-folder-name`
 - `test.py` — interactive local inference for `<your-model-folder-name>`
 - `upload.py` — uploads `train.jsonl` to Hugging Face Hub as a dataset
-- `SKILL.md` — high-level description of learned “skills”
-
+  
 ---
 
 ## Prerequisites
