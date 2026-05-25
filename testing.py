@@ -1,6 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-model_name = "Qwen/Qwen2.5-3B-Instruct"
+#Any model from the HuggingFace
+model_name = ""
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
